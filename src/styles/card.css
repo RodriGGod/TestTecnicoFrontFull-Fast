@@ -1,0 +1,29 @@
+.user-card{
+    color: #3d3d3d;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+}
+
+.user-card h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.user-card p {
+    color: #666;
+    font-size: 14px;
+  }
+
+  .user-card.selected {
+    background-color: #40fc11; 
+    border: 2px solid #ffffff; 
+    transform: scale(1.05); 
+  }
